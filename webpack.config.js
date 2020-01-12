@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/main.tsx',
 
   output: {
-    path: path.resolve(__dirname, '/dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.min.js',
     publicPath: '/dist'
   },
@@ -15,7 +15,6 @@ module.exports = {
   resolve: {
     alias: {
       Components: './src/components',
-      Features: './src/features',
     },
     extensions: [ '.ts', '.tsx', '.js', '.css', '.styl' ]
   },
